@@ -80,6 +80,12 @@
 			<artifactId>spring-context</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
+		<dependency>
+		<groupId>org.codehaus.sonar</groupId>
+                <artifactId>sonar-plugin-api</artifactId>
+                <version>5.1</version>
+                <scope>provided</scope>
+                </dependency>
 	
   
 		
